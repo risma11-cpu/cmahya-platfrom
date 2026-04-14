@@ -8,9 +8,9 @@
 /* ================= TEMA BARU: GLASSMORPHISM HITAM-PINK ================= */
 
 body {
-    /* Background soft pink gradient */
-    background: linear-gradient(135deg, #ffe4ec 0%, #ffdde5 50%, #fff0f5 100%);
-    color: #2d2d2d;
+    /* Background gradasi pink ke hitam */
+    background: linear-gradient(135deg, #1a0a15 0%, #2d1b2e 25%, #1a0a15 50%, #0f0510 75%, #1a0a15 100%);
+    color: #e0e0e0;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -34,7 +34,7 @@ body {
 .welcome-overlay {
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+    background: linear-gradient(135deg, #1a0a15 0%, #2d1b2e 50%, #1a0a15 100%);
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -321,7 +321,7 @@ main {
 .gallery-section h2 {
     font-size: 1.8rem;
     margin-bottom: 25px;
-    color: #2d2d2d;
+    color: #fff;
     position: relative;
     display: inline-block;
     font-weight: 700;
@@ -345,12 +345,12 @@ main {
 }
 
 .video-card {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(15, 5, 15, 0.6);
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 105, 180, 0.3);
     box-shadow: 0 8px 32px rgba(255, 105, 180, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -379,12 +379,12 @@ main {
 
 .card-info { 
     padding: 15px; 
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(10, 5, 10, 0.8);
 }
 
 .card-info h4 { 
     font-size: 0.95rem; 
-    color: #2d2d2d; 
+    color: #fff; 
     font-weight: 600; 
     line-height: 1.4; 
     display: -webkit-box;
