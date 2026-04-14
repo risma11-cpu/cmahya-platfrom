@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cmahya Video Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- WELCOME OVERLAY -->
+    <div class="welcome-overlay" id="welcomeOverlay">
+        <h1 class="welcome-text">Welcome Cmahya</h1>
+    </div>
+
+    <!-- NAVBAR -->
+    <header id="mainHeader">
+        <nav class="nav-container">
+            <a href="#" class="nav-item active">Home</a>
+            <a href="#" class="nav-item">Videos</a>
+            <a href="#" class="nav-item">Trending</a>
+            <a href="#" class="nav-item">Library</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- PLAYER SECTION -->
+        <section class="player-section hidden" id="playerSection">
+            <div class="player-layout">
+                <div class="video-main-box">
+                    <div class="video-wrapper">
+                        <iframe id="mainVideo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="video-meta">
+                        <h2 class="video-title-main" id="videoTitle">Judul Video</h2>
+                        <button class="btn-mini-fix" onclick="retryVideo()">Fix Player</button>
+                    </div>
+                </div>
+
+                <div class="next-video-sidebar">
+                    <h3 class="sidebar-title">Next Videos</h3>
+                    <div id="nextList"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section class="gallery-section">
+            <h2 class="section-title" id="galleryTitle">All Videos</h2>
+            <div class="video-grid" id="videoGrid"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
