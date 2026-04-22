@@ -34,9 +34,6 @@ dengan pengalaman yang nyaman dan menyenangkan ✨
 * 🎨 CSS
 * ⚡ JavaScript
 
----
-
-## 📁 Project Structure
 
 ```
 
